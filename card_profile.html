@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Web Component - Profile Card</title>
+  <style>
+    /* Estilos gerais da página */
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f0f0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Usando o componente personalizado -->
+  <profile-card 
+    img="https://via.placeholder.com/150" 
+    name="Maria Silva" 
+    description="Desenvolvedora Front-end apaixonada por tecnologia e design.">
+  </profile-card>
+
+  <profile-card 
+    img="https://via.placeholder.com/150" 
+    name="João Pereira" 
+    description="Engenheiro de Software com 10 anos de experiência em desenvolvimento de sistemas escaláveis.">
+  </profile-card>
+  <script src="webComponent.js" defer></script>
+    
+</body>
